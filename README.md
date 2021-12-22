@@ -1,6 +1,8 @@
 # portfolio-1
 
-The objective of this project is to create a portfolio using HTML, CSS, and media queries. 
+The objective of this project is to create a portfolio to impress employers using HTML, CSS, and media queries. Employers will judge the deployed portfolio websites along with resumes, and links to deployable code to determine if the person is a good candidate for an open position at their company.
+
+The requirements include a portrait photo, developer name, nav bar that links to the appropriate section, and a section dedicated to
 
 ## Built With
 
@@ -10,6 +12,9 @@ The objective of this project is to create a portfolio using HTML, CSS, and medi
 ## Deployed Link
 
 * [See Live Site](https://pentazoned.github.io/portfolio-1/)
+
+## Screenshits and GIFs
+
 
 
 ## Authors
@@ -22,10 +27,4 @@ The objective of this project is to create a portfolio using HTML, CSS, and medi
 
 ## License
 
-This project is licensed under the MIT License 
-
-## Acknowledgments
-
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+This project is licensed under the MIT License

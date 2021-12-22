@@ -89,12 +89,13 @@ ul {
     margin: 30px 60px;
 }
 
-/* to style the name on the top right corner of the website */
+/* to style the name */
 .name {
-    display: flex;
-    justify-content: left;
+    display: fixed;
+    text-align: left;
+    left: 20px;
     font-size: 24pt;
-    padding: 20px 20px;
+    padding: 25px 20px;
 }
 
 /* id selectors*/
