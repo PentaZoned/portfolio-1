@@ -2,7 +2,7 @@
 
 The objective of this project is to create a portfolio to impress employers using HTML, CSS, and media queries. Employers will judge the deployed portfolio websites along with resumes, and links to deployable code to determine if the person is a good candidate for an open position at their company.
 
-The requirements include a portrait photo, developer name, nav bar that links to the appropriate section, and a section dedicated to
+The requirements include a portrait photo, developer name, nav bar that links to the appropriate section, and a section dedicated to previous projects. The project images should be clickable and lead to the deploted application. The portfolio should also be mobile-friendly.
 
 ## Built With
 
@@ -13,7 +13,7 @@ The requirements include a portrait photo, developer name, nav bar that links to
 
 * [See Live Site](https://pentazoned.github.io/portfolio-1/)
 
-## Screenshits and GIFs
+## Screenshots and GIFs
 
 * [GIF of maneuvering through the site](https://github.com/PentaZoned/portfolio-1/blob/main/assets/Images/live.gif)
 
