@@ -3,31 +3,36 @@
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: #b3d9ff;
     font-family: sans-serif;
+    margin: 0;
 }
 
-header {
-    background-color: lightblue;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 nav {
     display: flex;
     justify-content: right;
     align-content: center;
-    background-color: cyan;
+    background-color: #80C0FF;
 }
 
 a {
-    font-size: 16pt;
+    font-size: 18pt;
     font-weight: bold;
-    padding: 20px 20px;
+    padding: 30px 24px;
 }
 
 h2 {
     color: blue;
     font-weight: bold;
     font-size: 24pt;
+    text-align: center;
     padding: 20px;
 }
 
@@ -41,9 +46,30 @@ li {
     padding: 20px 20px;
 }
 
-ul,
-.center {
+ul {
     text-align: center;
+}
+
+.card {
+    border: 3px solid cyan;
+    margin: 30px 20px;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    filter: blur(2px);
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 20px rgb(36, 69, 255), 0 0 20px rgb(39, 67, 224);
+    filter: none;
+}
+
+.card-cluster {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-mini {
+    padding: 60px 0px 0px 0px;
 }
 
 .name {
@@ -51,10 +77,9 @@ ul,
     left: 20px;
     color: black;
     font-weight: bold;
-    background-color: none;
     text-decoration: none;
     font-size: 24pt;
-    padding: 15px 20px;
+    padding: 24px 20px;
 }
 
 .intro {
@@ -78,4 +103,32 @@ ul,
     margin: auto;
     border: 5px solid black;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 50%;
+        margin: 0;
+    }
+
+    .card-cluster {
+        flex-direction: column;
+    }
+
+    .card-mini {
+        padding: 0px;
+        margin: auto;
+    }
+    #projects,
+    #about {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width:) {
+
 }
