@@ -1,7 +1,9 @@
+/* universal selectors */
 * {
     box-sizing: border-box;
 }
 
+/* element selectors */
 body {
     background-color: #b3d9ff;
     font-family: sans-serif;
@@ -15,6 +17,15 @@ main {
     justify-content: space-evenly;
 }
 
+/* formats the footer for visibility */
+footer {
+    width: 200px;
+    margin: auto;
+    font-size: 14pt;
+    padding: 20px;
+}
+
+/* Formats the nav bar */
 nav {
     display: flex;
     justify-content: right;
@@ -22,12 +33,14 @@ nav {
     background-color: #80C0FF;
 }
 
+/* To format the contents of the visible links */
 a {
     font-size: 18pt;
     font-weight: bold;
     padding: 30px 24px;
 }
 
+/* styling for the h2 tag*/
 h2 {
     color: blue;
     font-weight: bold;
@@ -36,20 +49,25 @@ h2 {
     padding: 20px;
 }
 
+/* To add some text formatting for the paragraphs */
 p {
     padding: 0px 50px;
     line-height: 25px;
 }
 
+/* makes the lsit of contact methods go inline so horizontal format*/
 li {
     display: inline-block;
     padding: 20px 20px;
 }
 
+/* to center the unordered list in the contact section */
 ul {
     text-align: center;
 }
 
+/* Class Selectors */
+/* formats the project images and not the portrait picture */
 .card {
     border: 3px solid cyan;
     margin: 30px 20px;
@@ -58,41 +76,35 @@ ul {
     filter: blur(2px);
 }
 
+/* creates the transitions for when user hovers over a project image */
 .card:hover {
     box-shadow: inset 0px 0px 20px rgb(36, 69, 255), 0 0 20px rgb(39, 67, 224);
     filter: none;
 }
 
-.card-cluster {
-    display: flex;
-    flex-direction: row;
-}
-
-.card-mini {
-    padding: 60px 0px 0px 0px;
-}
-
-.name {
-    position: absolute;
-    left: 20px;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 24pt;
-    padding: 24px 20px;
-}
-
+/* to style the contents of the About Me section */
 .intro {
     display: flex;
     flex-direction: row;
     margin: 30px 60px;
 }
 
+/* to style the name on the top right corner of the website */
+.name {
+    display: flex;
+    justify-content: left;
+    font-size: 24pt;
+    padding: 20px 20px;
+}
+
+/* id selectors*/
+/* formats the layout of each section*/ 
 #about,
 #projects {
     margin: 35px;
     border: 5px solid black;
     border-radius: 20px;
+    align-content: center;
 }
 
 #contact {
@@ -103,32 +115,4 @@ ul {
     margin: auto;
     border: 5px solid black;
     border-radius: 10px;
-}
-
-@media screen and (max-width: 767px) {
-    .card {
-        width: 50%;
-        margin: 0;
-    }
-
-    .card-cluster {
-        flex-direction: column;
-    }
-
-    .card-mini {
-        padding: 0px;
-        margin: auto;
-    }
-    #projects,
-    #about {
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (min-width:) {
-
 }
