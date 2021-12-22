@@ -15,7 +15,7 @@ The requirements include a portrait photo, developer name, nav bar that links to
 
 ## Screenshits and GIFs
 
-
+* [GIF of maneuvering through the site](assets/live.gif)
 
 ## Authors
 
