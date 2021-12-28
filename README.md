@@ -17,7 +17,7 @@ The requirements include a portrait photo, developer name, nav bar that links to
 
 * ![GIF of maneuvering through the site](https://github.com/PentaZoned/portfolio-1/blob/main/assets/Images/live.gif)
 * ![Screenshot of the top of the Portfolio](https://github.com/PentaZoned/portfolio-1/blob/main/assets/Images/screenshot1.jpg)
-* ![Screenshot of the bottom of the portfolio](https://github.com/PentaZoned/portfolio-1/blob/main/assets/Images/screenshot1.jpg)
+* ![Screenshot of the bottom of the portfolio](https://github.com/PentaZoned/portfolio-1/blob/main/assets/Images/screenshot2.jpg)
 
 ## Authors
 
